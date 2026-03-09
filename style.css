@@ -146,7 +146,7 @@ nav a{
 .heading{
     color: #e0e0e0;
     font-size: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 2px;
 }
 
 .line{
@@ -179,7 +179,7 @@ nav a{
     border: 2px solid #3a3a3a;
     background-color: #1e1e1e;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
@@ -199,4 +199,63 @@ nav a{
 .item:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* education */
+
+#education{
+    margin-top: 30px;
+}
+
+
+.year{
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    margin-bottom: 5px;
+}
+
+.degree{
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.college{
+    font-style: italic;
+    color: #a0a0a0;
+    margin-bottom: 10px;
+}
+
+.edtech{
+    position: relative;
+}
+
+
+
+.edfirst, .edsecond, .edthird{
+    margin-bottom: 30px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.goal{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border:  3px solid #FFBF00;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    z-index: 5;
+}
+
+.liner{
+    position: absolute;
+    width: 2px;
+    top: 0px;
+    bottom: 0px;
+    left: 5px;
+    border: 2px solid #3a3a3a;
+
 }
