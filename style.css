@@ -97,26 +97,8 @@ body {
     margin-bottom: 15px;
 }
 
-/* social media */
 
-/* .social-media{
-    margin-top: 30px;
-    border-top: 1px solid #16a4a4;
-    padding-top: 20px; 
-    text-align: center;
-} */
 
-.social-media img {
-    height: 24px;
-    width: 24px;
-    margin-left: 5px;
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(4033%) hue-rotate(55deg) brightness(116%) contrast(76%);
-    transition: filter 0.3s ease;
-}
-
-.social-media img:hover {
-    filter: brightness(0) saturate(100%) invert(15%) sepia(83%) saturate(3417%) hue-rotate(322deg) brightness(94%) contrast(95%);
-}
 
 /* main content */
 
@@ -132,13 +114,14 @@ body {
 nav {
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 16px;
 }
 
 nav a {
     text-decoration: none;
     color: #e0e0e0;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 400;
     transition: color 0.3s ease;
 }
 
@@ -171,6 +154,37 @@ nav a:hover {
 #about {
     margin-bottom: 40px;
 }
+
+/* What I Do */
+
+.work-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.work-card {
+    background-color: #1D201F;
+    /* border: 1px solid #16a4a4; */
+    padding: 13px;
+    border-radius: 15px;
+}
+
+.work-card h3 {
+    color: #c2185b;
+    margin-bottom: 10px;
+}
+
+.work-card p {
+    line-height: 1.6;
+    font-size: 16px;
+
+}
+
+.what-i-do {
+    margin-bottom: 40px;
+}
+
 
 /* skills section */
 
@@ -270,6 +284,44 @@ nav a:hover {
 
 }
 
+/* Currently Learning */
+
+.learning-box {
+    background-color: #1D201F;
+    /* border: 1px solid #16a4a4; */
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.learning-box h3 {
+    color: #c2185b;
+    margin-bottom: 10px;
+}
+
+.learning-box p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.learning-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.learning-list span {
+    background-color: #2d4343;
+    border: 1px solid #16a4a4;
+    color: black;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.currently-learning {
+    margin-bottom: 40px;
+}
+
 /* portfolio */
 
 .project-container {
@@ -354,80 +406,13 @@ nav a:hover {
     }
 }
 
-/* What I Do */
-
-.work-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-}
-
-.work-card {
-    background-color: #1D201F;
-    /* border: 1px solid #16a4a4; */
-    padding: 13px;
-    border-radius: 15px;
-}
-
-.work-card h3 {
-    color: #c2185b;
-    margin-bottom: 10px;
-}
-
-.work-card p {
-    line-height: 1.6;
-    font-size: 16px;
-
-}
-
-.what-i-do {
-    margin-bottom: 40px;
-}
 
 
-/* Currently Learning */
 
-.learning-box {
-    background-color: #1D201F;
-    /* border: 1px solid #16a4a4; */
-    padding: 25px;
-    border-radius: 20px;
-}
-
-.learning-box h3 {
-    color: #c2185b;
-    margin-bottom: 10px;
-}
-
-.learning-box p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.learning-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.learning-list span {
-    background-color: #2d4343;
-    border: 1px solid #16a4a4;
-    color: black;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 20px;
-}
-
-.learning {
-    margin-bottom: 40px;
-}
 
 /* Contact */
 
 .contact-box {
-    /* background-color: #1D201F;
-    border: 1px solid #16a4a4; */
     padding: 25px;
     border-radius: 15px;
     text-align: center;
@@ -443,36 +428,17 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* .contact-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-} */
 
 .social-media img {
     height: 30px;
     width: 30px;
-    /* margin-left: 5px;
-    /* filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(4033%) hue-rotate(55deg) brightness(116%) contrast(76%);
-    transition: filter 0.3s ease; */
+    margin-left: 5px;
+    transition: filter 0.3s ease;
     color: black;
-    */
+    
 }
 
-/* .social-media img:hover{
+.social-media img:hover{
     filter: brightness(0) saturate(100%) invert(15%) sepia(83%) saturate(3417%) hue-rotate(322deg) brightness(94%) contrast(95%);
-} */
+} 
 
-/* .contact-links a {
-    text-decoration: none;
-    color: black;
-    background-color: #2d4343;
-    border: 1px solid black;
-    padding: 10px 16px;
-    border-radius: 15px;
-} */
-
-/* .contact-links a:hover {
-    background-color: #c2185b;
-} */
